@@ -1,0 +1,52 @@
+<view class="container">
+  <view class="header">
+    <!-- <image class="head-left" src="../../images/img/6.png"></image> -->
+    <view class="head-title">既往史</view>
+  </view>
+  
+ <view class="header-title">
+    <view class="title"><view class="l">|</view> 请选择既往史</view>
+  </view>
+  <view class="con">
+    <view  class="item" bindtap="selected">
+      <view class="section__title left">过敏史</view>
+      <image class="bot right" src="../../images/sun/11.png"></image>
+    </view>
+    <view  class="item" bindtap="selected1">
+      <view class="section__title left">用药史</view>
+      <image class="bot right" src="../../images/sun/11.png"></image>
+    </view>
+
+    <view class="{{selected1?'show':'hidden'}}">用药史</view>
+
+    <view  class="item" bindtap="selected2">
+      <view class="section__title left">疾病史</view>
+      <image class="bot right" src="../../images/sun/11.png"></image>
+    </view>
+    <view class="{{selected2?'show':'hidden'}}">for sem</view>
+
+    <view  class="item" bindtap="selected3">
+      <view class="section__title left">手术史</view>
+      <image class="bot right" src="../../images/sun/11.png"></image>
+    </view>
+    <view class="{{selected3?'show':'hidden'}}">疾病史</view>
+
+    <view  class="item" bindtap="selected4">
+      <view class="section__title left">输血史</view>
+      <image class="bot right" src="../../images/sun/11.png"></image>
+    </view>
+    <view class="{{selected4?'show':'hidden'}}">输血史</view>
+
+    <view  class="item" bindtap="selected5">
+      <view class="section__title left">家族遗传史</view>
+      <image class="bot right" src="../../images/sun/11.png"></image>
+    </view>
+    <view class="{{selected5?'show':'hidden'}}">家族遗传史</view>
+  </view>
+
+  <button bindtap="">提交</button>
+  
+  
+  
+  
+</view>

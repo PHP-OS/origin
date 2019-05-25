@@ -1,0 +1,50 @@
+<!--pages/appointment/appointment.wxml-->
+<view class="container">
+  <view class="doctor-info">
+      <view class="doctor-info-l">
+        <image class="portrait" src="../../images/img/4.jpg"></image>
+      </view>
+      <view class="doctor-info-r">
+        <view class="name_doctor">
+          <view class="name">陶笙</view>
+          <view class="doctor">主任医师</view>
+        </view>
+        <view class="gray">
+          <view class="left">评分：9.0</view>
+          <view class="right">评分：999</view>
+        </view>
+        <view class="gray1">擅长：骨折、骨不连等修复...</view>
+        <view class="address">
+          <image class="icon" src="../../images/img/5.jpg"></image>
+          <view class='icon-text'>骨科_中国人民解放军总医院301医院</view>
+        </view>
+      </view>
+  </view>
+  <view class="pay-info">
+       <view class="consultation">
+        <view class="gray2">咨询时间：</view>
+        <view class="blue">30分钟</view>
+      </view>
+      <view class="consultation">
+        <view class="gray2">费用合计：</view>
+        <view class="blue">10元</view>
+      </view>
+  </view>
+  <view class="footer">
+    <view class="foot-top">
+      <view class="section">
+        <view class="section__title">就诊人</view>
+        <picker class='picker' bindchange="bindPickerChange2" value="{{index}}" range="{{arrayM}}">
+          <view class="foot-right">{{arrayM[index]}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="ji">疾病信息</view>
+    <textarea class="text" placeholder='请简单描述您的疾病信息'></textarea>
+    <view class="shangChuan">上传病例</view>
+    <view class="image">
+      <image class="img" src="../../images/img/x2.jpg"></image>
+    </view>
+    <button class="btn">提交</button>
+  </view>
+</view>

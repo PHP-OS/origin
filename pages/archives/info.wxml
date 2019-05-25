@@ -1,0 +1,111 @@
+<view class="container">
+  <view class="header-title">
+    <view class="title"><view class="l">|</view> 请填写基本信息   </view>
+  </view>
+  <view class="con">
+    <view class="item">
+      <image src='/images/arch/1.png'></image>
+      <view class="left">姓名</view>
+      <input class="right inp-right" placeholder='请输入'></input>
+    </view>
+    <view class="item">
+      <view class="section">
+        <image src='/images/arch/2.png'></image>  
+        <view class="left">性别</view>
+        <picker bindchange="bindPickerChange" class="picker" value="{{index}}" range="{{array}}">
+          <view class="right">{{array[index]}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+      <view class="section">
+         <image src='/images/arch/3.png'></image>
+          <view class="section__title left">生日</view>
+        <picker mode="date"
+          value="{{date}}"
+          start="2015-09-01"
+          end="2017-09-01"
+          bindchange="bindDateChange"
+           class="picker">
+          <view class="right">{{date}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+        <image src='/images/arch/4.png'></image>
+        <view class="left">身份证号</view>
+        <input class="right" placeholder='请输入'></input>
+    </view>
+    <view class="item">
+      <view  wx:for="{{mzArray}}" wx:for-item="mzitm" wx:for-index="mzidx">
+        <image src='/images/arch/5.png'></image>
+        <view class="left">民族</view>
+        <picker  class="picker" bindchange="bindChange_select2" data-current="{{mzidx}}" range="{{mzitm.option}}">
+          <view class='right'> {{mzitm.option[mzitm.index]}} </view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+      <image src='/images/arch/6.png'></image>
+      <view class="left">联系方式</view>
+      <input class="right inp-right" placeholder='请输入'></input>
+    </view>
+    <view class="item">
+      <view wx:for="{{whArray}}" wx:for-item="whitm" wx:for-index="whidx">
+      <image src='/images/arch/7.png'></image>
+        <view class="left">文化程度 </view>
+        <picker bindchange="bindChange_select3"  class="picker" value="{{whitm.index}}" data-current="{{whidx}}" range="{{whitm.option}}">
+          <view class='right'> {{whitm.option[whitm.index]}} </view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+      <image src='/images/arch/8.png'></image>
+      <view class="left">工作单位</view>
+      <input class="right inp-right" placeholder='请输入'></input>
+    </view>
+    <view class="item">
+     <image src='/images/arch/9.png'></image>
+      <view class="left">职业</view>
+      <input class="right inp-right" placeholder='请输入'></input>
+    </view>
+    <view class="item">
+      <view wx:for="{{hunyin}}" wx:for-item="whitm" wx:for-index="whidx">
+      <image src='/images/arch/10.png'></image>
+        <view class="left">婚姻状况 </view>
+        <picker bindchange="bindChange_select3"  class="picker" value="{{whitm.index}}" data-current="{{whidx}}" range="{{whitm.option}}">
+          <view class='right'> {{whitm.option[whitm.index]}} </view>
+        </picker>
+      </view>
+    </view>
+     <view class="item">
+      <view wx:for="{{xuexing}}" wx:for-item="whitm" wx:for-index="whidx">
+      <image src='/images/arch/11.png'></image>
+        <view class="left">血型 </view>
+        <picker bindchange="bindChange_select3"  class="picker" value="{{whitm.index}}" data-current="{{whidx}}" range="{{whitm.option}}">
+          <view class='right'> {{whitm.option[whitm.index]}} </view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+      <view wx:for="{{RH}}" wx:for-item="whitm" wx:for-index="whidx">
+      <image src='/images/arch/12.png'></image>
+        <view class="left">RH </view>
+        <picker bindchange="bindChange_select3"  class="picker" value="{{whitm.index}}" data-current="{{whidx}}" range="{{whitm.option}}">
+          <view class='right'> {{whitm.option[whitm.index]}} </view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+      <view wx:for="{{yibao}}" wx:for-item="whitm" wx:for-index="whidx">
+       <image src='/images/arch/13.png'></image>
+        <view class="left">医保类型 </view>
+        <picker bindchange="bindChange_select3"  class="picker" value="{{whitm.index}}" data-current="{{whidx}}" range="{{whitm.option}}">
+          <view class='right'> {{whitm.option[whitm.index]}} </view>
+        </picker>
+      </view>
+    </view>
+
+  </view>
+  <view class="footer-btn">提交</view>
+</view>

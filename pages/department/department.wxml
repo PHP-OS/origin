@@ -1,0 +1,61 @@
+<view class="container">
+  <image class="head" src="../../images/img/13.jpg"></image>
+  <view class="footer">
+    <navigator url="" class="con">
+      <view class="con-style">外科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">内科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style active">肿瘤科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">康复科</view>
+    </navigator>
+    <navigator url="" class="con">
+      <view class="con-style">老年病科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">口腔科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">内分泌科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">神经内科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">心血管科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">骨科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">耳鼻喉科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">男科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">皮肤科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">妇科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">眼科</view>
+    </navigator>
+     <navigator url="" class="con">
+      <view class="con-style">儿科</view>
+    </navigator>
+ 
+    <view class="explain">
+      <view class="ex">预约说明：</view>
+      <view class="exp">1、挂号时间说明；</view>
+      <view class="exp">2、手术时间预约说明。</view>
+    </view>
+  </view>
+  
+
+</view>

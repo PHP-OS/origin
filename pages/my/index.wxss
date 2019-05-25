@@ -1,0 +1,123 @@
+.container{
+  width:100%;
+  margin:0;
+  padding:0;
+}
+.header{
+  width:100%;
+  background:#ffffff;
+  position: relative;
+}
+.header image{
+  width:100%;
+  height:720rpx;
+  position: absolute;
+  top:0;
+}
+.head-title{
+  width:100%;
+  text-align: center;
+  font-size:30rpx;
+  color:#ffffff;
+  position: absolute;
+  top:70rpx;
+}
+.my-info{
+  width:160rpx;
+  text-align: center;
+  color:#fff;
+  font-size:24rpx;
+  position: absolute;
+  top:137rpx;
+  right:10rpx;
+}
+.user{
+  overflow: hidden;
+  width:450rpx;
+  height:250rpx;
+  position: absolute;
+  top:170rpx;
+}
+.userhead{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+  margin:47rpx 180rpx 0;
+}
+.uservip{
+  width:115rpx;
+  height:47rpx;
+  position: absolute;
+  top:0rpx;
+  left:262rpx;
+}
+.vip{
+  color:#fff;
+  font-size:20rpx;
+  position: absolute;
+  top:0rpx;
+  left:275rpx;
+}
+.hello{
+  font-size:30rpx;
+  color:#fff;
+  text-align: center;
+}
+.number{
+  color:#fff;
+  font-size:22rpx;
+  text-align:center;
+  margin-left:50rpx;
+  float:left;
+  margin-right:20rpx;
+}
+.user .btn{
+  color:#fff;
+  font-size:24rpx;
+}
+.nav{
+  width:590rpx;
+  height:590rpx;
+  background:#fff;
+  position: absolute;
+  top:462rpx;
+  left:80rpx;
+  border-radius: 15rpx;
+  border-bottom: 5rpx solid #eee;
+}
+.list{
+  width:94rpx;
+  height:126rpx;
+  margin:50rpx 50rpx 0;
+  float:left;
+}
+.list .con{
+  text-align: center;
+  width:99rpx;
+  font-size:24rpx;
+  color:#666666;
+}
+.icon1{
+  width:84rpx;
+  height:83rpx;
+  margin-left:5rpx;
+}
+.icon2{
+  width:83rpx;
+  height:82rpx;
+  margin-left:5rpx;
+}
+.icon3{
+  width:83rpx;
+  height:83rpx;
+}
+button{
+  position: absolute;
+  top:1110rpx;
+  width:200rpx;
+  line-height:80rpx;
+  text-align: center;
+  color:#fff;
+  font-size:28rpx;
+  background:#4497f7;
+}

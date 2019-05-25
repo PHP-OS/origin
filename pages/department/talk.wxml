@@ -1,0 +1,172 @@
+<view class="container">
+
+<!-- <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<image src="../../images/img/18.jpg" class="modalDlg3" wx:if="{{showModal}}">
+   <text class="big-title">咨询加时支付</text>
+    <text class="tishi-con1">医生：陶笙</text>
+    <text class="tishi-con2">时长：5分钟</text>
+    <text class="tishi-con3">费用：10元</text>
+    <button class="modal-btn"  bindtap="submit">确认支付</button>
+</image>
+<view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+</view> -->
+
+ <!--<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<image src="../../images/img/19.png" class="modalDlg3" wx:if="{{showModal}}">
+   <text class="big2">抱歉!</text>
+    <text class="tishi-con4">医生稍后有病患安排，无法加时咨询</text>
+</image>
+<view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+</view> -->
+
+<!-- <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<image src="../../images/img/18.jpg" class="modalDlg3" wx:if="{{showModal}}">
+   <text class="big3">咨询结束</text>
+   <button class="modal-btn2"  bindtap="submit">继续咨询</button>
+</image>
+<view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+</view> -->
+
+<!--<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <image src="../../images/img/33.png" class="modalDlg2" wx:if="{{showModal}}">
+   <text  class="talk-title">温馨提示</text> 
+   <text class="big4-blue">医生已结束与您的咨询对话</text>
+   <view class='btn-group'>
+        <button class='cancel'>取消</button>
+        <button class='sure'>确定</button>
+    </view>
+  </image>
+  <view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+  </view> -->
+
+  <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <image src="../../images/img/33.png" class="modalDlg2" wx:if="{{showModal}}">
+   <text  class="talk-title">温馨提示</text> 
+   <text class="big4-blue">当前咨询已结束</text>
+   <view class='btn-group'>
+        <button class='cancel'>取消</button>
+        <button class='sure'>确定</button>
+    </view>
+  </image>
+  <view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+  </view> 
+
+  <!--<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <image src="../../images/img/33.png" class="modalDlg2" wx:if="{{showModal}}">
+   <text  class="talk-title">咨询加时支付</text> 
+   <text class="tishi-con11">医生：陶笙</text>
+    <text class="tishi-con12">时长：5分钟</text>
+    <text class="tishi-con13">费用：10元</text>
+   <view class='btn-group btn-group1'>
+        <button class='cancel'>取消</button>
+        <button class='sure'>支付</button>
+    </view>
+  </image>
+  <view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+  </view> -->
+
+   <!--<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <image src="../../images/img/33.png" class="modalDlg2" wx:if="{{showModal}}">
+   <text  class="talk-title">温馨提示</text> 
+   <text class="big4-blue">医生稍后有病患安排无法加时咨询</text>
+   <view class='btn-group'>
+        <button class='cancel'>拒绝</button>
+        <button class='sure'>同意</button>
+    </view>
+  </image>
+  <view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+  </view> -->
+
+<!--<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<image src="../../images/img/33.png" class="modalDlg2" wx:if="{{showModal}}">
+  <text  class="talk-title">医生正忙</text>
+   <text class="tishi-con5">您可以预约一下时间段进行咨询</text>
+    <view class="picker_group">  
+      <picker
+        mode="time"
+        value="{{time}}"
+        start="09:01"
+        end="21:01"
+        bindchange="bindTimeChange"
+      >
+        <view class="picker picker1">
+          <view class="tishi-con6">
+          当前选择:
+          </view>
+          {{time}}
+        </view>
+      </picker>  
+
+      <picker
+        mode="time"
+        value="{{time2}}"
+        start="09:01"
+        end="21:01"
+        bindchange="bindTimeChange2"
+      >
+         <view class="picker picker2">
+         - {{time2}}
+        </view>
+      </picker>
+    </view> 
+    <view class='btn-group'>
+        <button class='cancel'>取消</button>
+        <button class='sure'>确定</button>
+    </view>
+</image>
+<view wx:if="{{showModal}}" class="modelgo2">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+</view>-->
+
+  <view class="con">
+    <view class="gray"  bindtap="submit">剩余时间：120s</view>
+
+    <scroll-view scroll-y scroll-into-view='{{toView}}' style='height: {{scrollHeight}};'>
+    <!-- <view class='scrollMsg'> -->
+    <block wx:key wx:for='{{msgList}}' wx:for-index="index">
+
+      <!-- 单个消息1 医生发出（左） -->
+      <view  id='msg-{{index}}' style='display: flex; padding: 2vw 11vw 2vw 2vw;'>
+        <view style='width: 11vw; height: 11vw;'>
+          <image class="user-head" src='../../images/img/23.jpg'></image>
+        </view>
+        <view style='width: 4vw; height: 11vw; margin-left: 0.5vw; display: flex; align-items: center; z-index: 9;'>
+          <!-- <image style='width: 4vw;' src='../../images/left_msg.png' mode='widthFix'></image> -->
+        </view>
+        <view class='leftMsg'>{{item.content}}</view>
+      </view>
+
+      <!-- 单个消息2 用户发出（右） -->
+      <view  style='display: flex; justify-content: flex-end; padding: 2vw 2vw 2vw 11vw;'>
+        <view class='rightMsg'>{{item.content}}</view>
+        <view style='width: 4vw; height: 11vw; margin-right: 0.5vw; display: flex; align-items: center; z-index: 9;'>
+          <!-- <image style='width: 4vw;' src='../../images/right_msg.png' mode='widthFix'></image> -->
+        </view>
+        <view style='width: 11vw; height: 11vw;'>
+          <image class="user-head" src='../../images/img/1_03.jpg'></image>
+        </view>
+      </view>
+
+    </block>
+    <!-- </view> -->
+
+    <!-- 占位 -->
+    <view style='width: 100%; height: 18vw;'></view>
+  </scroll-view>
+
+  </view>
+  <view class="footer">
+    <view class="jia" bindtap='upimg'>+</view>
+    <input bindconfirm='sendClick' adjust-position='{{false}}' value='{{inputVal}}' confirm-type='send' bindfocus='focus' bindblur='blur' class="input" placeholder='请输入您要发送的信息'></input>
+    <view class="enter" >
+      <image class="foot-img" src="../../images/img/16.png"></image>
+    </view>
+  </view>
+</view>  

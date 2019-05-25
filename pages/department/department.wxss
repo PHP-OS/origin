@@ -1,0 +1,57 @@
+.page{
+  background:#eeeeee;
+}
+.container{
+  width:100%;
+  padding:0;
+  margin:0;
+  background:#eeeeee;
+}
+.head{
+  width:100%;
+  height:275rpx;
+}
+.footer{
+  overflow: hidden;
+  background: #fff;
+  padding-top: 20rpx;
+}
+.blue{
+  background:#4497f7;
+  color:#fff;
+}
+.con{
+  margin-top:30rpx;
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  margin-bottom: 20rpx;
+
+}
+.con-style{
+  font-size:30rpx;
+  color: #585858;
+  border:1rpx solid #f1f1fd;
+  background: #f1f1fd;
+  border-radius: 5rpx;
+  width: 80%;
+  margin: 0 auto;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.active{
+  background: #4497f7;
+  color: #fff;
+}
+.explain{
+  width:670rpx;
+  height:100rpx;
+  margin-top:70rpx;
+  float:left;
+  font-size:22rpx;
+  color:#666666;
+  padding: 20rpx;
+}
+.ex{
+  font-size:24rpx;
+}

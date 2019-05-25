@@ -1,0 +1,75 @@
+<view class="container">
+  <!-- <view class="header"> -->
+    <!-- <image class="head-left" src="../../images/img/6.png"></image> -->
+    <!-- <view class="head-title">体检报告</view> -->
+  <!-- </view> -->
+  <view class="con">
+  <view class="selection">
+    <view class="time-sec">
+      <picker
+        mode="date"
+        value="{{date}}"
+        start="2015-09-01"
+        end="2017-09-01"
+        bindchange="bindDateChange"
+        >
+        <view class="picker">
+        <view class="time">{{date}}</view>
+        <image class="select" src="../../images/sun/11.png"></image>
+        </view>
+        </picker>
+    </view>
+    <view class="adds-sec">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="address">
+          迦南门诊
+          {{array[index]}}
+        </view>
+        <image class="select" src="../../images/sun/11.png"></image>
+      </picker>
+    </view>
+  </view>
+    
+
+    <view class="name">某某某体检报告</view>
+      <view class="item1">
+        <view class="item-left">心脑血管</view>
+        <view class="item-right">
+          <image class="select1" src="../../images/sun/11.png"></image>
+          <view class="item-con">15项指标</view>
+        </view>
+      </view>
+
+      <view class="item1">
+        <view class="item-left">脑神经</view>
+        <view class="item-right">
+        <image class="select1" src="../../images/sun/11.png"></image>
+          <view class="item-con">5项指标</view>
+        </view>
+      </view>
+
+      <view class="item1">
+        <view class="item-left">肝功能</view>
+        <view class="item-right">
+          <image class="select1" src="../../images/sun/11.png"></image>
+          <view class="item-con">5项指标</view>
+        </view>
+      </view>
+
+      <view class="item1">
+        <view class="item-left">肺功能</view>
+        <view class="item-right">
+          <image class="select1" src="../../images/sun/11.png"></image>
+          <view class="item-con">5项指标</view>
+        </view>
+      </view>
+
+      <view class="item1">
+        <view class="item-left">肾功能</view>
+        <view class="item-right">
+          <image class="select1" src="../../images/sun/11.png"></image>
+          <view class="item-con">4项指标</view>
+        </view>
+      </view>
+  </view>
+</view>

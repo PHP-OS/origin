@@ -1,0 +1,80 @@
+<view class="container">
+  <!-- <view class="header"> -->
+    <!-- <image class="head-left" src="../../images/img/6.png"></image> -->
+    <!-- <view class="head-title">体检报告</view> -->
+  <!-- </view> -->
+  <view class="header-title">
+    <view class="title"><view class="l">|</view> 基本指标情况</view>
+  </view>
+
+  <view class="item">
+       <view class="item-left">
+         <image src='/images/health/21.png'></image>
+         <view class='names'>体重</view>
+       </view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          78KG
+        </view>   
+      </view>
+    </view>
+
+    <view class="item">
+       <view class="item-left">
+         <image src='/images/health/22.png'></image>
+         <view class='names'>血压</view>
+       </view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn2">轻度</button>
+        <view class="right-text">
+          120/96MMGH
+        </view>   
+      </view>
+    </view>
+
+    <view class="item">
+       <view class="item-left">
+         <image src='/images/health/23.png'></image>
+         <view class='names'>心率</view>
+       </view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn1">中度</button>
+        <view class="right-text">
+          102BPM
+        </view>   
+      </view>
+    </view>
+
+    <view class="item">
+       <view class="item-left">
+         <image src='/images/health/22.png'></image>
+         <view class='names'>血压</view>
+       </view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          120/96MMGH
+        </view>   
+      </view>
+    </view>
+
+    <view class="item">
+       <view class="item-left">
+         <image src='/images/health/24.png'></image>
+         <view class='names'>血脂</view>
+       </view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          120MMOL/L
+        </view>   
+      </view>
+    </view>
+
+</view>

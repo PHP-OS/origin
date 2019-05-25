@@ -1,0 +1,42 @@
+<view class="container"> 
+  <view class="item">
+    <image class="img" src="../../images/img/4.jpg"></image>
+      <view class="con">
+        <view class="left">陶笙</view>
+        <view class="right blue">主任医师</view>
+        <view class="yuyue">预约中...</view>
+      </view>
+      <view class="sc">擅长：骨折、骨不连等修复...</view>
+      <view class="gray">咨询时间  2018-09-10</view>
+  </view>
+  <view class="item">
+    <image class="img" src="../../images/img/4.jpg"></image>
+      <view class="con">
+        <view class="left">陶笙</view>
+        <view class="right blue">主任医师</view>
+        <view class="yuyue succ">预约成功</view>
+      </view>
+      <view class="sc">擅长：骨折、骨不连等修复...</view>
+      <view class="gray">咨询时间  2018-09-10</view>
+  </view>
+  <view class="item">
+    <image class="img" src="../../images/img/4.jpg"></image>
+      <view class="con">
+        <view class="left">陶笙</view>
+        <view class="right blue">主任医师</view>
+        <view class="yuyue false">预约失败</view>
+      </view>
+      <view class="sc">擅长：骨折、骨不连等修复...</view>
+      <view class="gray">咨询时间  2018-09-10</view>
+  </view>
+  <view class="item">
+    <image class="img" src="../../images/img/4.jpg"></image>
+      <view class="con">
+        <view class="left">陶笙</view>
+        <view class="right blue">主任医师</view>
+        <view class="yuyue back">退款中...</view>
+      </view>
+      <view class="sc">擅长：骨折、骨不连等修复...</view>
+      <view class="gray">咨询时间  2018-09-10</view>
+  </view>
+</view>

@@ -1,0 +1,54 @@
+<view class="container">
+  <view class="header">
+    <image src="../../images/my/06.png"></image>
+    <view class="head-title">我的</view>
+    <navigator class="my-info" url='../my/info' >我的资料</navigator>
+  </view>
+  <view class="user">
+    <image class="uservip" src="../../images/my/06.gif"></image>
+    <view class="vip">天使会员</view>
+    <image class="userhead" src="../../images/img/23.jpg"></image>
+    <view class="hello">你好，丹丹</view>
+    <view class="number">我的识别码：<text> 200158CCC15</text></view>
+    <view class="btn">复制</view>
+  </view>
+  <view class="nav">
+    <view class="list" bindtap='toMemberCenter'>
+      <image class="icon1" src="../../images/my/1.png"></image>
+      <view class="con">会员中心</view>
+    </view>
+    <view class="list" bindtap=''>
+      <image class="icon2" src="../../images/my/2.png"></image>
+      <view class="con">分销中心</view>
+    </view>
+    <view class="list" bindtap=''>
+      <image class="icon1" src="../../images/my/3.png"></image>
+      <view class="con">订单中心</view>
+    </view>
+    <view class="list" bindtap=''>
+      <image class="icon1" src="../../images/my/4.png"></image>
+      <view class="con">积分商城</view>
+    </view>
+    <view class="list" bindtap=''>
+      <image class="icon2" src="../../images/my/8.png"></image>
+      <view class="con">优惠券</view>
+    </view>
+    <view class="list" bindtap='toAdvisoryRecord'>
+      <image class="icon3" src="../../images/my/11.png"></image>
+      <view class="con">咨询记录</view>
+    </view>
+    <view class="list" bindtap=''>
+      <image class="icon1" src="../../images/my/9.png"></image>
+      <view class="con">评价中心</view>
+    </view>
+    <view class="list" bindtap=''>
+      <image class="icon1" src="../../images/my/12.png"></image>
+      <view class="con">收藏夹</view>
+    </view>
+    <view class="list" bindtap=''>
+      <image class="icon2" src="../../images/my/10.png"></image>
+      <view class="con">我的家属</view>
+    </view>
+  </view>
+  <button>退出登录</button>
+</view> 

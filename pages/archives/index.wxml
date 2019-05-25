@@ -1,0 +1,34 @@
+<view class="container">
+  <!-- <view class="header">
+    <image class="head-left" src="../../images/img/6.png"></image>
+    <view class="head-title">健康档案</view>
+  </view> -->
+
+  <view class="head">
+    <image class="left-img" src="../../images/img/4.jpg"></image>
+    <view class="left">
+      <view class="hei">陶笙</view>
+      <view class="blue">健康管家</view>
+    </view>
+    <button class="right">咨询医生</button>
+  </view>
+
+  <view class="nav">
+    <view class="list list1">
+      <image src='/images/health/25.png'></image>
+      <view class="text">基本信息</view>
+    </view>
+    <view class="list">
+      <image src='/images/health/26.png'></image>
+      <view class="text text1">既往史</view>
+    </view>
+    <view class="list list1 list2">
+      <image src='/images/health/27.png'></image>
+      <view class="text">体检报告</view>
+    </view>
+    <view class="list list2">
+      <image src='/images/health/28.png'></image>
+      <view class="text">报告解读</view>
+    </view>
+  </view>
+</view>
